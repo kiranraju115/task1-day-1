@@ -1,0 +1,116 @@
+#topContainer {
+
+}
+
+#navbar {
+    background-color: #ffffff;
+    display: flex;
+    border: 1px solid #f1ecec;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.website-icon {
+    width: 110px;
+    height:35px;
+}
+.icon {
+    color:black;
+    background-color: rgb(8, 227, 154);
+    border-radius: 50%;
+}
+#mainContainer {
+    display: flex;
+   flex-direction: row;
+    height:90vh;
+    
+}
+#humburgerContainer {
+    display: flex;
+    flex-direction: column;
+   
+    background-color: rgb(2, 46, 41);
+    justify-content: flex-start;
+    align-items:center;
+    
+}
+
+.ul-humburger {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.humb-li {
+    margin: 10px;
+}
+.li-icon {
+    color:white;
+    padding:5px;
+}
+
+.hamb-icons {
+    background-color :  #059668;
+    padding: 10px;
+}
+
+.cube-icons {
+    
+    padding: 10px;
+}
+
+#table-filter-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
+#mainFilterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#myquotesContainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.myquotes {
+   
+   padding-right: 5px;
+   font-weight: bold;
+}
+#f-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 1040px;
+    
+}
+.filter {
+    margin-left: 10px;
+}
+#tableContainer {
+   
+}
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+th {
+    background-color: lightgray;
+
+}
+.quote-number {
+    color:  #059668;
+    font-weight: bold;
+}
